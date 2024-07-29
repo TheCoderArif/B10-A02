@@ -29,7 +29,8 @@ header{
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding-top: 50px;
 
 }
 header nav .brand{
@@ -98,18 +99,21 @@ header nav .brand{
         border-radius: 20px;
         /* display: inline-block; */
         display: flex;
-        justify-content: center;
+        width: 120px;
+        /* justify-content: space-between; */
+
         /* margin: auto;
         padding: auto; */
         /* text-align: center; */
         /* border: 2px solid green; */
     }
     .nav-buttons .item-1 a{
-        /* text-align: center; */
+        text-align: center;
+        /* width: 1px; */
     }
     .nav-button-item{
-        /* margin: 20px; */
-        /* padding: auto; */
+        margin: auto;
+        padding: auto;
         /* margin-right: 10px; */
 
     }

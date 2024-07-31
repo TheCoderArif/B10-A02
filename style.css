@@ -1,120 +1,194 @@
 .inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
-  }
-*{
-    margin: 0px;
-    padding: 0px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
 }
-body{
-    /* background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-    background-color: black;
+* {
+  margin-right: 0px;
+  padding: 0px;
 }
-header{
-    background-color: rgba(35, 35, 35, 1);
+body {
+  /* background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+  background-color: rgba(35, 35, 35, 1);
+}
+header {
+  background-color: rgba(35, 35, 35, 1);
 }
 
 /* Shared styles */
 
-.border{
-    border: 1px solid rgb(255, 255, 255);
+.border {
+  border: 1px solid rgb(255, 255, 255);
 }
-.nav-items{
-    display: flex;
+.nav-items {
+  display: flex;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    /* margin-top: 50px; */
-    padding-top: 50px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 50px; */
+  padding-top: 50px;
+}
+header nav .brand {
+  margin-left: rem;
+  color: rgb(230, 83, 60);
+  text: bold;
+}
+.hambarger {
+}
+}
+#jn button {
+  background-color: rgb(230, 83, 60);
+  border-color: none;
+  /* margin-right: 10px; */
+}
 
-}
-header nav .brand{
-    margin-left: 3rem;
-    color: rgb(230, 83, 60);
-    text: bold;
-}
-.hambarger{
-    
-}
 
 
 
-@media screen and (max-width:576px) {
-    header .nav-buttons{
-        display: none;
-        
-        
-    }
-    .hambarger{
-        /* display: flex;
+/* Phone screen */
+
+@media screen and (max-width: 576px) {
+  header .nav-buttons {
+    display: none;
+  }
+  .hambarger {
+    /* display: flex;
         flex-direction: row; */
-        margin-top: 4px;
-        margin-right: 45px;
-        
-    }
-    .hambarger .hb-lines{
-        /* height: 0.002rem;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  .hambarger .hb-lines {
+    /* height: 0.002rem;
         width: 1rem;
         background-color: black; */
-        height: 2.5px;
-        width: 28px;
-        margin-top: 2px;
-        border-radius: 10px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(255, 255, 255);
-    }
+    height: 2.5px;
+    width: 28px;
+    margin-top: 2px;
+
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+  }
+  .body {
+    margin-right: 20px;
+  }
+  .buttons {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  #jcn {
+    display: none;
+  }
+  #jcn button {
+    background-color: rgb(230, 83, 60);
+    border-color: none;
+    margin-right: 10px;
+  }
+  #da button {
+    background-color: rgba(35, 35, 35, 1);
+  }
+  .buttons .link button {
+    height: 54px;
+    width: 169;
+    border-radius: 42px;
+    color: white;
+    padding: 16px 40px;
+    border-color: none;
+
+
+  }
+  .buttons .link {
+    border-color: none;
+  }
 }
 
-@media screen and (min-width: 576px)  {
-    header ul{
-        display: flex;
-        justify-content: space-between;
-        list-style: none;
-        color: white;
-        margin-right: 40px;
-        margin-top: 5px;
-        
-    }
-    header ul a{
-        color: white;
-        text-decoration: none;
-        margin: 5px;
-        margin-left: 40px;
-    }
-    .nav-buttons{
-        border: 1px solid rgba(255, 255, 255, 0.616);
-        border-radius: 30px;
-        margin: auto;
-        margin-right: 50px;
-        padding: 10px 10px;
-        padding-left: 10px;
-    }
-    .nav-buttons .item-1{
-        background-color: rgb(230, 83, 60);
-        border-radius: 20px;
-        /* display: inline-block; */
-        display: flex;
-        width: 120px;
-        /* justify-content: space-between; */
 
-        /* margin: auto;
+
+
+
+/* Computer screen */
+
+@media screen and (min-width: 576px) {
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  body{
+    margin-left: 30px;
+  }
+  header ul a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 40px;
+  }
+  .nav-buttons {
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    border-radius: 30px;
+    margin: auto;
+    margin-right: 50px;
+    padding: 10px 10px;
+    padding-left: 10px;
+  }
+  .nav-buttons .item-1 {
+    background-color: rgb(230, 83, 60);
+    border-radius: 20px;
+    /* display: inline-block; */
+    display: flex;
+    width: 120px;
+    /* justify-content: space-between; */
+
+    /* margin: auto;
         padding: auto; */
-        /* text-align: center; */
-        /* border: 2px solid green; */
-    }
-    .nav-buttons .item-1 a{
-        text-align: center;
-        /* width: 1px; */
-    }
-    .nav-button-item{
-        margin: auto;
-        padding: auto;
-        /* margin-right: 10px; */
+    /* text-align: center; */
+    /* border: 2px solid green; */
+  }
+  .nav-buttons .item-1 a {
+    text-align: center;
+    /* width: 1px; */
+  }
+  .nav-button-item {
+    margin: auto;
+    padding: auto;
+    /* margin-right: 10px; */
+  }
+  .body {
+    margin-right: 20px;
+  }
+  .buttons {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  #jn {
+    display: none;
+  }
+  #jcn button {
+    background-color: rgb(230, 83, 60);
+    border-color: none;
+    margin-right: 10px;
+  }
+  #da button {
+    background-color: rgba(35, 35, 35, 1);
+  }
+  .buttons .link button {
+    height: 54px;
+    width: 169;
+    border-radius: 42px;
+    color: white;
+    padding: 16px 40px;
+    border-color: none;
 
-    }
+
+  }
+  .buttons .link {
+    border-color: none;
+  }
+
 }

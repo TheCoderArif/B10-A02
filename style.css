@@ -77,7 +77,9 @@ header nav .brand {
   }
   .buttons {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content:space-around;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   #jcn {
     display: none;
@@ -102,7 +104,82 @@ header nav .brand {
   }
   .buttons .link {
     border-color: none;
+    
   }
+  #jn button{
+    background-color: rgb(230, 83, 60);
+  }
+  .havit div{
+    display: flex;
+    justify-content: center;
+  }
+  .havit h3{
+    color: white;
+  }
+  .havit p{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .havit .image{
+    background-image: url(images/Images\ 2.png);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .havit .image .card{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 150px;
+    height: 80px;
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 10px;
+    display: block;
+    /* margin: 0; */
+
+  }
+  .havit .image #videos{
+    text-align: center;
+    padding-top: 0;
+    margin-left: 180px;
+    /* color: aqua; */
+  }
+  .havit .image #tutorial{
+    /* margin-left: 200px; */
+  }
+  #videos p{
+    /* text-size-adjust: 12px; */
+    padding-bottom: 4px;
+    /* color: aquamarine; */
+    margin-bottom: 3px;
+    /* padding-top: 2px; */
+    margin-top: 0;
+  }
+
+  #videos h1{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  /* #videos{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    margin: 0;
+  } */
+  #tutorial{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 12px;
+
+
+  }
+  .image .card p{
+    /* text: 70px; */
+    font-size: 15px;
+    /* color: aqua; */
+    padding-bottom: 5px;
+  }
+
+
 }
 
 

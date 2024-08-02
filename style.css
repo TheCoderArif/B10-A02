@@ -5,6 +5,28 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+
+.just-another-hand-regular {
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.fasthand-regular {
+  font-family: "Fasthand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.freehand-regular {
+  font-family: "Freehand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.freehand-regular {
+  font-family: "Freehand", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+
 * {
   margin-right: 0px;
   padding: 0px;
@@ -44,6 +66,90 @@ header nav .brand {
   border-color: none;
   /* margin-right: 10px; */
 }
+
+
+
+
+
+.havit div{
+  display: flex;
+  justify-content: center;
+}
+.havit h3{
+  color: white;
+}
+.havit p{
+  color: rgba(255, 255, 255, 0.5);
+}
+.havit .image{
+  /* background-image: url(images/Images\ 2.png); */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.havit .image .card{
+  background-color: rgba(255, 255, 255, 0.1);
+  display: block;
+  width: 150px;
+  height: 80px;
+  /* display: flex;
+  flex-direction: column; */
+  border-radius: 10px;
+  display: block;
+  /* margin: 0; */
+
+}
+.havit .image #videos{
+  /* margin-left: 180px; */
+  text-align: center;
+  padding-top: 0;
+  /* color: aqua; */
+}
+.havit .image #tutorial{
+  /* margin-left: 200px; */
+}
+#videos p{
+  /* text-size-adjust: 12px; */
+  padding-bottom: 4px;
+  /* color: aquamarine; */
+  margin-bottom: 3px;
+  /* padding-top: 2px; */
+  margin-top: 0;
+}
+
+#videos h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/* #videos{
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  margin: 0;
+} */
+#tutorial{
+  text-align: center;
+  padding-top: 0px;
+  font-size: 12px;
+
+
+}
+.image .card p{
+  /* text: 70px; */
+  font-size: 15px;
+  /* color: aqua; */
+  padding-bottom: 5px;
+}
+#tutorial div{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  color: orangered;
+}
+
+
+
 
 
 
@@ -109,74 +215,17 @@ header nav .brand {
   #jn button{
     background-color: rgb(230, 83, 60);
   }
-  .havit div{
-    display: flex;
-    justify-content: center;
-  }
-  .havit h3{
-    color: white;
-  }
-  .havit p{
-    color: rgba(255, 255, 255, 0.5);
-  }
   .havit .image{
     background-image: url(images/Images\ 2.png);
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-  }
-  .havit .image .card{
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 150px;
-    height: 80px;
-    /* display: flex;
-    flex-direction: column; */
-    border-radius: 10px;
-    display: block;
-    /* margin: 0; */
-
   }
   .havit .image #videos{
-    text-align: center;
-    padding-top: 0;
     margin-left: 180px;
-    /* color: aqua; */
   }
-  .havit .image #tutorial{
-    /* margin-left: 200px; */
+  .habit image{
+    width: 400px;
   }
-  #videos p{
-    /* text-size-adjust: 12px; */
-    padding-bottom: 4px;
-    /* color: aquamarine; */
-    margin-bottom: 3px;
-    /* padding-top: 2px; */
-    margin-top: 0;
-  }
-
-  #videos h1{
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-  }
-  /* #videos{
-    display: flex;
-    flex-direction: column;
-    padding-top: 0;
-    margin: 0;
-  } */
-  #tutorial{
-    text-align: center;
-    padding-top: 0px;
-    font-size: 12px;
-
-
-  }
-  .image .card p{
-    /* text: 70px; */
-    font-size: 15px;
-    /* color: aqua; */
-    padding-bottom: 5px;
+  .bg-forpc img{
+    display: none;
   }
 
 
@@ -198,7 +247,7 @@ header nav .brand {
     margin-top: 5px;
   }
   body{
-    margin-left: 30px;
+    margin-left: 100px;
   }
   header ul a {
     color: white;
@@ -267,5 +316,24 @@ header nav .brand {
   .buttons .link {
     border-color: none;
   }
+  .habit .image{
+    /* display: relative; */
+  }
+  .info-card .bg-forpc img{
+    position: absolute;
+    left: 55%;
+  }
+  #videos{
+    position: absolute;
+    left: 70%;
+    bottom: 50%;
+  }
+   #tutorial{
+    position: absolute;
+    left: 40%;
+    bottom: -150px;
+   }
+
+
 
 }

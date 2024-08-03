@@ -60,7 +60,7 @@ header nav .brand {
 }
 .hambarger {
 }
-}
+
 #jn button {
   background-color: rgb(230, 83, 60);
   border-color: none;
@@ -141,13 +141,38 @@ header nav .brand {
   /* color: aqua; */
   padding-bottom: 5px;
 }
-#tutorial div{
-  height: 10px;
-  width: 10px;
+#tutorial .circle{
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
-  color: orangered;
-}
+  background-color: rgb(230, 83, 60);
 
+}
+#tutorial{
+  display: flex;
+}
+main section .card{
+  width: 231px;
+  height: 274px;
+  align-items: center;
+  position: relative;
+}
+main section .card img{
+  border-radius: 50%;
+  /* position: absolute; */
+  margin-left:30px ;
+}
+main section .card  p{
+  text-align: center;
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+main section .card  h3{
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: rgb(255, 255, 255);
+}
 
 
 
@@ -226,6 +251,15 @@ header nav .brand {
   }
   .bg-forpc img{
     display: none;
+  }
+  main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section .card{
+    margin-bottom: 20px;
   }
 
 
@@ -318,6 +352,8 @@ header nav .brand {
   }
   .habit .image{
     /* display: relative; */
+    padding-bottom: 0;
+    height: 300px;
   }
   .info-card .bg-forpc img{
     position: absolute;
@@ -331,8 +367,22 @@ header nav .brand {
    #tutorial{
     position: absolute;
     left: 40%;
-    bottom: -150px;
+    bottom: -50px;
    }
+   .text-of-last{
+    position: relative;
+    bottom: 200px;
+
+   }
+   main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  header{
+    margin-bottom: -150px;
+  }
 
 
 

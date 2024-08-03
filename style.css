@@ -1,3 +1,7 @@
+:root{
+  --heading-color: rgb(255, 255, 255);
+  --para-color: rgba(255, 255, 255, 0.5);
+}
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -174,6 +178,20 @@ main section .card  h3{
   color: rgb(255, 255, 255);
 }
 
+.run-an-extra-mile{
+  background-color: rgb(51, 51, 51);
+  border-radius: 15px;
+  padding: 20px;
+}
+.run-an-extra-mile .text .btn{
+  background-color: rgb(230, 83, 60);
+  width: 100px;
+  height: 30px;
+  border-radius:50px;
+  border-color: rgb(134, 136, 136);
+
+}
+
 
 
 
@@ -260,6 +278,25 @@ main section .card  h3{
   }
   main section .card{
     margin-bottom: 20px;
+  }
+  .run-an-extra-mile{
+    margin: 50px;
+  }
+
+  .run-an-extra-mile .text .btn{
+    width: 100%;
+  }
+  .run-an-extra-mile .image img{
+    /* position: absolute;  */
+    border-radius: 10px;
+    width: 100%;
+    /* height: 520px; */
+  }
+  .run-an-extra-mile .text .btn{
+    margin-bottom: 20px;
+  }
+  .run-an-extra-mile .text{
+    padding-right: 20px;
   }
 
 
@@ -383,7 +420,10 @@ main section .card  h3{
   header{
     margin-bottom: -150px;
   }
-
+  .run-an-extra-mile .image img{
+    width: 250px;
+    border-radius: 10px;
+  }
 
 
 }

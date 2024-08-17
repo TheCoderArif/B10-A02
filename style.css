@@ -220,6 +220,72 @@ table{
   padding: 10px;
   
 }
+form .calculation-of-bmi{
+  width: 30%;
+  margin-bottom: 8px;
+  height: 30px;
+
+}
+.last-button{
+  background-color: rgb(230, 83, 60);
+  border-radius: 20px;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 20px; */
+
+}
+
+#heading-of-team{
+  margin-left: 350px;
+}
+.team-images{
+  background-color: rgba(255, 255, 255, 0.1);
+  /* width: 500px; */
+}
+.team-images .team-image{
+  width: 60%;
+  height: 60%;
+}
+.team{
+  padding-right: 300px;
+}
+
+.heading-color{
+  color: var(--heading-color);
+}
+.text-color{
+  color: var(--para-color);
+}
+ 
+#last-heading{
+  color: rgb(230, 83, 60);
+  text:bold;
+  font-style: italic;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -311,6 +377,8 @@ table{
   }
   .run-an-extra-mile{
     margin: 50px;
+    margin-right: 40px;
+    align-items: center;
   }
 
   .run-an-extra-mile .text .btn{
@@ -335,13 +403,98 @@ table{
     justify-content: space-between;
   }
   #imgj{
+    margin-right: 20px;
+    margin-left: -20px;
+    padding-left: 0;
+
+  }
+  main .bmi{
+    display: flex;
+    flex-direction: column;
+  }
+  main .bmi-calculator{
     margin-left: 20px;
   }
-
-  
-
+  .team-images .st-row-of-team-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 200%;
+  }
+.team-image {
+  width: 1000px;
+}
+#qqq{
+  width: 30%;
+  margin-left: 50%;
+  margin-top: 20px;
+  align-items: center;
+}
+#qqw{
+  width: 30%;
+  margin-left: 50%;
+  margin-top: 20px;
+  align-items: center;
+}
+#qqe{
+  width: 30%;
+  margin-left: 50%;
+  margin-top: 20px;
+  align-items: center;
+}
+#qqr{
+  width: 30%;
+  height: 100%;
+  margin-left: 50%;
+  margin-top: 20px;
+  align-items: center;
+}
+#qqt{
+  width: 30%;
+  margin-left: 50%;
+  margin-top: 20px;
+  align-items: center;
+}
+#qqy{
+  width: 30%;
+  margin-left: 50%;
+  margin-top: 20px;
+  align-items: center;
+}
+.img111{
+  /* width: 20px; */
+}
+.nd-row-of-team-pic{
+  margin-left: 70px;
+  padding-right: 0;
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -464,6 +617,50 @@ table{
   .run-an-extra-mile .image img{
     width: 250px;
     border-radius: 10px;
+  }
+  main .team .heading{
+    display: flex;
+    flex-direction: column;
+  }
+  .team-images{
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+    padding-right: 400px;
+    padding-left: 500px;
+  }
+
+  .st-row-of-team-pic{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+    
+  }
+  .nd-row-of-team-pic{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin
+  }
+  .team-images .team-image{
+    width: 150px;
+    height:100%;
+    gap: 10px;
+    gap: 20px;
+    margin-left: 50px;
+  }
+  .footer-cards{
+    display: flex;
+    position:;
+  }
+  .footer-card{
+    display: block;
+    width: 40%;
+    margin-right: 40px;
+  }
+  .footer-card p{
+    font-size: smaller;
   }
 
 
